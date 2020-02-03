@@ -115,7 +115,7 @@ body {
 }
 
 .icons-sec {
-    padding: 0 0 2% 0;
+    padding: 2% 0 0 0;
     text-align: center;
 }
 
@@ -154,6 +154,26 @@ p {
     font-family: 'Dosis', sans-serif;
     text-align: center;
     padding-top: 2%;
+}
+
+/* contact */
+
+.text-center {
+    padding-top: 1%;
+}
+
+.btn-outline-success {
+    text-align: center;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+/* Projects */
+
+.projects-div {
+    padding-top: 3%;
 }
 
 /* Responsive */
@@ -203,5 +223,7 @@ p {
 
     .photo-sec {
         padding-top: 2rem;
+        padding-bottom: 2rem;
     }
+
  }
