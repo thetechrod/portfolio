@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+}
+/* HEADER */
+
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-image: url("images/background.jpg");
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ 
+.description {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+
+ a:link {
+     color: #F9F1E9;
+ }
+
+ a:hover {
+     text-decoration: none;
+ }
+
+ a:visited {
+    color: #F9F1E9;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ }
+
+ /********************************************* HOME PAGE ***************************************************/
+
+body {
+    background-image: url("images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+
+.font1 {
+    color: #F9F1E9;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 7em;
+    padding-top: 50px;
+}
+
+.font2  {
+    color: #F9F1E9;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.top-sec {
+    padding: 5% 20% 3% 20%;
+}
+
+.top-sec2 {
+    padding: 0 20% 5% 20%;
+    text-align: center;
+}
+
+.prof-pic{
+    border-radius: 50%;
+    width: 15%;
+}
+
+.photo-sec {
+    padding: 0 0 2% 0;
+    text-align: center;
+}
+
+.icons-sec {
+    padding: 0 0 2% 0;
+    text-align: center;
+}
+
+.footer {
+    padding: 0;
+    text-align: center;
+}
+
+/* bot section */
+
+.fab {
+    font-size: 2rem;
+    margin-top: 0px;
+    padding: 0 1% 0 1%;
+}
+
+.upwork {
+    width: 3.5%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #F9F1E9;
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.footers {
+    padding: 0 1% 0 1%;
+    font-size: 2rem;
+}
+
+p {
+    color: #F9F1E9;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+    .font1 {
+       font-size: 5em;
+    }
+
+    .prof-pic {
+        width: 30%;
+    }
+
+    .footers {
+        font-size: 1.5em;
+    }
+
+    .upwork {
+        width: 8%;
+    }
+ }
+
+ @media only screen and (max-width: 400px) {
+    .font1 {
+       font-size: 4em;
+    }
+
+    .font2 {
+    font-size: 1.5em;
+}
+
+    .prof-pic {
+        width: 40%;
+    }
+
+    .footers {
+        font-size: 1em;
+    }
+
+    .upwork {
+        width: 12%;
+    }
+
+    .icons-sec {
+        padding-top: 2rem;
+    }
+
+    .photo-sec {
+        padding-top: 2rem;
+    }
+ }
