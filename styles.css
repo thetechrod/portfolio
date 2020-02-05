@@ -95,6 +95,11 @@ body {
     font-size: 2em;
 }
 
+a[href^=tel] {
+   text-decoration:inherit;
+   color: inherit;
+}
+
 .top-sec {
     padding: 5% 20% 3% 20%;
 }
